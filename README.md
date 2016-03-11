@@ -7,19 +7,20 @@ This application is very similar to Linux 'wc' tool, which basically display som
 - Java 8
 
 ## Usage
-To use this application you need [gradle](http://gradle.org/), but you don't need to download Gradle to start using it. 
-This project is configured to use the [Gradle Wrapper](https://docs.gradle.org/current/userguide/gradle_wrapper.html) which is a
-Gradle feature which allows a developer to execute the build without having to install Gradle, making your build more reliable.
+This application requires to set up JAVA_HOME env variable and you also need [gradle](http://gradle.org/).
+But don't worry because you don't need to download Gradle to start using it. This project is configured to use 
+the [Gradle Wrapper](https://docs.gradle.org/current/userguide/gradle_wrapper.html) which is a
+Gradle feature which allows a developer to execute the build without having to manually install Gradle, which also makes your build more reliable
+since you don't need to worry about dependencies and versions and, as a developer, you only need to focus on writing your code.
 
-This project is configured to call the distribution gradle task by default, so, to generate your distribution package which contains all the assets
-required to run this application, just open a console pointing to the project root folder and run the command:
+When running `gradlew` command, all the project dependencies will be automatically downloaded and the build process started. 
 
+So, just run `gradlew` for start building your application:
 ```bash
 $ ./gradlew
 ```
-Then it will start downloading all the gradle dependencies and after awhile your build should be successful.
 
-For start using `javawc`, you just need to go to folder `/build/install/JavaWC/bin` and then run `./wc <filename>`.
+After that, you are ready to run your `javawc` application. Then go to folder `/build/install/JavaWC/bin` and run `./wc <filename>`.
 
 ```bash
 $ ./wc file.txt
