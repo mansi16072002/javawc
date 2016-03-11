@@ -43,7 +43,8 @@ They are organized in the following folders:
 
 ## Project Structure
 This project was designed using NetBeans IDE 8.1 with JDK 8.
-The application root package is `com.oracle.javawc`, the main method for running this application as a 
-standalone you can found on `com.oracle.javawc.main.Main` class.
-The logic for reading the file is available in the `com.oracle.javawc.entities.shell.FileLoader` class.
-The logic for generating the statistics is available in the `com.oracle.javawc.entities.shell.WordCount` class.
+
+- The application root package is `com.oracle.javawc`
+- main method for running this application as a standalone one can be found in the `com.oracle.javawc.main.Main` class.
+- the logic for reading the file from the file system is available in the `com.oracle.javawc.entities.shell.FileLoader` class.
+- the logic for calculating the statistics is available in the `com.oracle.javawc.entities.shell.WordCount` class.
