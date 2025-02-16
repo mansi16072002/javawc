@@ -3,7 +3,7 @@
 The `Java Word Count` ia a Java application built with the purpose of showcasing the usage of some Java 8 features, e.g. Streams, Lambdas. 
 This application is very similar to Linux 'wc' tool, which basically display some statistics related to one file (number of lines, words, etc).
 
-## Requirements
+## Requirement
 - Java 8
 
 ## Usage
